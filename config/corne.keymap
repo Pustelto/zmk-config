@@ -67,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp NUMBER_1      &kp NUMBER_2      &kt NUMBER_3  &kt NUMBER_4  &kp N5    &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans
-&trans  &kt LA(NUMBER_9)  &kt LA(NUMBER_0)  &kt LA(LBRC)  &kt LA(RBRC)  &trans    &trans        &kt LA(LBKT)  &kt LA(RBKT)  &kt LA(LT)    &kt LA(GT)    &trans
-&trans  &trans            &trans            &trans        &kp EQUAL     &trans    &trans        &kp MINUS     &trans        &trans        &trans        &trans
-                                            &trans        &trans        &trans    &trans        &trans        &trans
+&trans  &kp NUMBER_1      &kp NUMBER_2      &kt NUMBER_3    &kt NUMBER_4     &kp N5    &kp NUMBER_6  &kp NUMBER_7      &kp NUMBER_8       &kp NUMBER_9  &kp NUMBER_0  &trans
+&trans  &kt LA(NUMBER_9)  &kt LA(NUMBER_0)  &kt LEFT_BRACE  &kt RIGHT_BRACE  &trans    &trans        &kt LEFT_BRACKET  &kt RIGHT_BRACKET  &kt LA(LT)    &kt LA(GT)    &trans
+&trans  &trans            &trans            &trans          &kp EQUAL        &trans    &trans        &trans            &trans             &trans        &trans        &trans
+                                            &trans          &trans           &trans    &trans        &trans            &trans
             >;
         };
 

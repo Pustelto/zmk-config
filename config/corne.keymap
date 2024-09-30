@@ -25,10 +25,10 @@
         };
     };
 
-    &mt { tapping-term-ms = <300>; };
-
     keymap {
         compatible = "zmk,keymap";
+
+        &mt { tapping-term-ms = <300>; };
 
         default_layer {
             // -----------------------------------------------------------------------------------------

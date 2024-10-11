@@ -15,8 +15,6 @@
     require-prior-idle-ms = <125>;
 };
 
-&out OUT_BLE;
-
 / {
     combos {
         compatible = "zmk,combos";

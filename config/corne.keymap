@@ -30,6 +30,12 @@
             key-positions = <19 20>;
             layers = <0>;
         };
+
+        Delete {
+            bindings = <&kp DEL>;
+            key-positions = <24 41>;
+            layers = <0>;
+        };
     };
 
     keymap {

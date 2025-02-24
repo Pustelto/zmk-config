@@ -33,13 +33,13 @@
     };
 
     behaviors {
-        bcps_del: bcps_del {
+        bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BCPS_DEL";
-            bindings = <&kp BACKSPACE>, <&kp DEL>;
-
             #binding-cells = <0>;
-            mods = <(MOD_LSFT)>;
+            bindings = <&kp BACKSPACE>, <&kp DELETE>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+            keep-mods = <(MOD_RSFT)>;
         };
     };
 

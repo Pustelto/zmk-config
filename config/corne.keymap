@@ -30,11 +30,16 @@
             key-positions = <19 20>;
             layers = <0>;
         };
+    };
 
-        Delete {
-            bindings = <&kp DEL>;
-            key-positions = <24 41>;
-            layers = <0>;
+    behaviors {
+        bcps_del: bcps_del {
+            compatible = "zmk,behavior-mod-morph";
+            label = "BCPS_DEL";
+            bindings = <&kp BACKSPACE>, <&kp DEL>;
+
+            #binding-cells = <0>;
+            mods = <(MOD_LSFT)>;
         };
     };
 
